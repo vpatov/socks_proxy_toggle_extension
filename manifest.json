@@ -1,0 +1,26 @@
+{
+    "manifest_version": 2,
+    "name": "Socks Proxy Togglke",
+    "version": "1.0",
+  
+    "description": "Turns the firefox proxy on/off",
+  
+    "icons": {
+      "48": "icons/48.png"
+    },
+  
+    "browser_action": {
+        "default_icon": "icons/48.png",
+        "default_title": "Toggle Proxy",
+        "default_popup": "popup/choose_option.html"
+      },
+
+    "browser_specific_settings": {
+        "gecko": {
+          "id": "toggle_proxy@vas.dev"
+        }
+      },
+    "permissions": ["proxy", "activeTab", "tabs"]
+      
+  }
+  
