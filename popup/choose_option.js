@@ -2,7 +2,7 @@ console.log("is this loading???");
 
 let socksProxySettings = {
     proxyType: "manual",
-    socks: "http://localhost:8080",
+    socks: "http://localhost:8987",
     socksVersion: 5,
     proxyDNS: true,
   };
