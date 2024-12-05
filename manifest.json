@@ -1,6 +1,6 @@
 {
     "manifest_version": 2,
-    "name": "Socks Proxy Togglke",
+    "name": "Socks Proxy Toggle",
     "version": "1.0",
   
     "description": "Turns the firefox proxy on/off",
@@ -17,10 +17,10 @@
 
     "browser_specific_settings": {
         "gecko": {
-          "id": "toggle_proxy@vas.dev"
+          "id": "toggle_proxy@vas.dev",
+          "strict_min_version": "91.1.0"
         }
       },
-    "permissions": ["proxy", "activeTab", "tabs"],
-    "strict_min_version": "91.1.0"   
+    "permissions": ["proxy", "activeTab", "tabs"]
   }
   

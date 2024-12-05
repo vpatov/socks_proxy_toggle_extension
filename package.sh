@@ -1,1 +1,1 @@
-zip -r extension.zip . -x "extension.zip" -x ".git/*" -x ".gitignore"
+zip -r extension.zip . -x "extension.zip" -x ".git/*" -x ".gitignore" -x ".DS_Store" -x "package.sh"
