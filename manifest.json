@@ -20,7 +20,7 @@
           "id": "toggle_proxy@vas.dev"
         }
       },
-    "permissions": ["proxy", "activeTab", "tabs"]
-      
+    "permissions": ["proxy", "activeTab", "tabs"],
+    "strict_min_version": "91.1.0"   
   }
   
