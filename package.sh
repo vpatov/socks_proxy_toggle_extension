@@ -1,0 +1,1 @@
+zip -r extension.zip . -x "extension.zip" -x ".git/*" -x ".gitignore"
